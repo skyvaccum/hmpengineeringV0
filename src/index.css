@@ -1,0 +1,20 @@
+ion-icon {
+  visibility: hidden;
+  font-size: 30px;
+}
+.rounded-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
